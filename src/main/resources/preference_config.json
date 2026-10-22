@@ -1,0 +1,17 @@
+{
+  "configs": [
+    {
+      "title": "按文件导入歌单",
+      "config": "config.json",
+      "preferences": [
+        {
+          "type": "button",
+          "title": "导入 TXT",
+          "summary": "按文件中的路径顺序新建或追加歌单；先预览，再导入",
+          "arrow_type": "arrow",
+          "on_click": "io.github.localplaylist.TxtPlaylistPlugin.openImporter"
+        }
+      ]
+    }
+  ]
+}

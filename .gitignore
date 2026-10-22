@@ -1,0 +1,17 @@
+.tools/
+.gradle/
+.kotlin/
+build/
+dist/*
+!dist/.gitkeep
+*.log
+.idea/
+.vscode/
+*.iml
+.env
+.env.*
+local.properties
+*.jks
+*.keystore
+*.p12
+*.pem
